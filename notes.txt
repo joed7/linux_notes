@@ -1,0 +1,54 @@
+#expressions
+
+expr 1 + 3
+echo `expr 6 + 3`
+
+
+#exit status
+echo $? #zero success|| non zerio failure
+
+
+#read statemetn
+echo "Your first name please:"
+read fname
+echo "Hello $fname, Lets be friend!"
+
+
+#command line
+$# total number of arfumetn
+
+
+#tr command for upper to lower case
+tr "[a-z]" "[A-Z]"
+
+
+#backgorun foregeround
+
+&(ampersand put it inbackground)
+
+#sending the current foreground 
+1) firest user CTRL+Z and b
+
+
+
+#find process
+ps ax | grep  process-U-want-to see
+
+#key errro
+ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 80E7349A06ED541C
+
+
+
+
+#setting up a serer
+adduser demo #add suer demo
+
+gpasswd -a demo sudo #give sudo privledges
+
+
+#permission
+chmod u+r,g+x <filename>
+
+
+
+
