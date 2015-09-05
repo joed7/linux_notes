@@ -1,0 +1,10 @@
+sed '/^[ ]*$/d' --delete empty lines
+
+
+find / -ctime -1 > /tmp/changed-file-list.txt 2>&1 &
+
+ echo 'av 2 sgji 6' | sed 's/\([0-9]\+\)/<\1>/g'
+----tokenize
+ 
+ tr -sc ’A-Za-z’ ’\n’ < sh.txt ---> c completes|s squeezes all seq in a single character 
+ 
