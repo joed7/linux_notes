@@ -51,4 +51,5 @@ chmod u+r,g+x <filename>
 
 
 
-
+#adding sh file to bin
+run just with the name
