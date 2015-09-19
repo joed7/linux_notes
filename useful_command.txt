@@ -1,4 +1,5 @@
 sed '/^[ ]*$/d' --delete empty lines
+sed -i  '/pattern to match/d' ./infile
 
 
 find / -ctime -1 > /tmp/changed-file-list.txt 2>&1 &
@@ -8,6 +9,10 @@ find / -ctime -1 > /tmp/changed-file-list.txt 2>&1 &
  
  tr -sc ’A-Za-z’ ’\n’ < sh.txt ---> c completes|s squeezes all seq in a single character 
 
+-----------------------------------------------------------------------------
+parse sqll data
+
+cat Dump20150915.sql | grep -oE '\([^)]*\)' | awk -F "\'" '{print $2}'
 
 -----------------ssh check----------------------------------------------
 
