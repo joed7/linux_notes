@@ -23,4 +23,6 @@ ssh gupta@vmhost05-dal05.kiwiup.com -p 2276
 
 http://www.ewhathow.com/2013/09/how-to-check-if-ssh-is-running-on-linux/
 
--------------------------------------------------------------------
+------------------------------------------------------------------
+#convert text into insert into
+cat b | sed 's/[ \t]\+/,/' | sed 's/\(.*\)/insert into hangar values \(\1\);/'-
