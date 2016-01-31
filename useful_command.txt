@@ -26,3 +26,12 @@ http://www.ewhathow.com/2013/09/how-to-check-if-ssh-is-running-on-linux/
 ------------------------------------------------------------------
 #convert text into insert into
 cat b | sed 's/[ \t]\+/,/' | sed 's/\(.*\)/insert into hangar values \(\1\);/'-
+
+-----------------------------------------------------------------------
+
+cat train.txt | awk '$2 == "I" '
+
+cat train.txt | awk '$2 ~ /^[a-z]+$/ '
+
+
+sudo rsync -uav /home/rohit/Documents/workspace/boulder/secure_web_programming/source_code/* /var/www/html/
