@@ -35,3 +35,7 @@ cat train.txt | awk '$2 ~ /^[a-z]+$/ '
 
 
 sudo rsync -uav /home/rohit/Documents/workspace/boulder/secure_web_programming/source_code/* /var/www/html/
+
+
+-----------------------------------------------------------------------------------
+ find /folder/to/be/searched -type f -name '*.mp3' -exec cp "{}" /target/folder \;
