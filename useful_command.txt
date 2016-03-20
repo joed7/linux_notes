@@ -31,6 +31,10 @@ cat b | sed 's/[ \t]\+/,/' | sed 's/\(.*\)/insert into hangar values \(\1\);/'-
 
 cat train.txt | awk '$2 == "I" '
 
+
+------------------------------------------------------------------------
+
+netstat -tlpn
 cat train.txt | awk '$2 ~ /^[a-z]+$/ '
 
 
